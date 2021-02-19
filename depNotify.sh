@@ -50,17 +50,17 @@
 # Banner image can be 600px wide by 100px high. Images will be scaled to fit
 # If this variable is left blank, the generic image will appear. If using custom Self
 # Service branding, please see the Customized Self Service Branding area below
-  BANNER_IMAGE_PATH="/Applications/Self Service.app/Contents/Resources/AppIcon.icns"
+  BANNER_IMAGE_PATH="/Library/Ithaca/ICprimary.png"
 
 # Update the variable below replacing "Organization" with the actual name of your organization. Example "ACME Corp Inc."
-  ORG_NAME="Organization"
+  ORG_NAME="Ithaca College"
 
 # Main heading that will be displayed under the image
 # If this variable is left blank, the generic banner will appear
   BANNER_TITLE="Welcome to $ORG_NAME"
 	
 # Update the variable below replacing "email helpdesk@company.com" with the actual plaintext instructions for your organization. Example "call 555-1212" or "email helpdesk@company.com"
-  SUPPORT_CONTACT_DETAILS="email helpdesk@company.com"
+  SUPPORT_CONTACT_DETAILS="To open a service request, call the Service Desk at 607-274-1000 or send an email to servicedesk@ithaca.edu"
   
 # Paragraph text that will display under the main heading. For a new line, use \n
 # If this variable is left blank, the generic message will appear. Leave single
@@ -152,16 +152,23 @@ TRIGGER="event"
 # The policy array must be formatted "Progress Bar text,customTrigger". These will be
 # run in order as they appear below.
   POLICY_ARRAY=(
-    "Installing Adobe Creative Cloud,adobeCC"
-    "Installing Adobe Reader,adobeReader"
+    "Preparing for deployment,disablejamfcheckin"
+    #"Preparing for deployment,setjamfbuilding"
+    "Setting computer name to serial number,rename"
+    "Installing GlobalProtect VPN,globalprotect"
+    "Configuring GlobalProtect VPN,globalprotectplist"
+    "Installing NoMAD Login,nomadlogin"
+    "Installing NoMAD Menu,nomadmenu"
+    "Setting up OneDrive for Enterprise,kickstartonedrive"
     "Installing Chrome,chrome"
-    "Installing CrashPlan,crashplan"
+    "Configuring Chrome,chromeautoupdates"
     "Installing Firefox,firefox"
     "Installing Java,java"
-    "Installing NoMAD,nomad"
-    "Installing Office,msOffice"
-    "Installing Webex,webex"
-    "Installing Critical Updates,updateSoftware"
+    "Installing Microsoft Office 365 ProPlus,officeproplus"
+    "Installing Zoom,zoom"
+    "Installing VLC,vlc"
+    "Setting up disk encryption,filevault2020"
+    "Preparing for deployment,enablejamfcheckin"
   )
 
 #########################################################################################
@@ -244,10 +251,10 @@ TRIGGER="event"
   # First Text Field
   #######################################################################################
     # Text Field Label
-      REG_TEXT_LABEL_1="Computer Name"
+      REG_TEXT_LABEL_1=""
 
     # Place Holder Text
-      REG_TEXT_LABEL_1_PLACEHOLDER="macBook0123"
+      REG_TEXT_LABEL_1_PLACEHOLDER=""
 
     # Optional flag for making the field an optional input for end user
       REG_TEXT_LABEL_1_OPTIONAL="false" # Set variable to true or false
@@ -279,7 +286,7 @@ TRIGGER="event"
   # Second Text Field
   #######################################################################################
     # Text Field Label
-      REG_TEXT_LABEL_2="Asset Tag"
+      REG_TEXT_LABEL_2=""
 
     # Place Holder Text
       REG_TEXT_LABEL_2_PLACEHOLDER="81926392"
@@ -313,18 +320,19 @@ TRIGGER="event"
   # Popup 1
   #######################################################################################
     # Label for the popup
-      REG_POPUP_LABEL_1="Building"
+      REG_POPUP_LABEL_1="Select your computer use type"
 
     # Array of options for the user to select
       REG_POPUP_LABEL_1_OPTIONS=(
-        "Amsterdam"
-        "Eau Claire"
-        "Minneapolis"
+        "New computers"
+        "Generic lab"
+        "Special use"
+        "Student Loaner Laptops"
       )
 
     # Help Bubble for Input. If title left blank, this will not appear
-      REG_POPUP_LABEL_1_HELP_TITLE="Building Dropdown Field"
-      REG_POPUP_LABEL_1_HELP_TEXT="Please choose the appropriate building for where you normally work. This is important for inventory purposes."
+      REG_POPUP_LABEL_1_HELP_TITLE="Computer use Dropdown Field"
+      REG_POPUP_LABEL_1_HELP_TEXT="Please choose the appropriate use for your computer. This is important for inventory purposes."
 
     # Logic below was put in this section rather than in core code as folks may
     # want to change what the field does. This is a function that gets called
@@ -335,14 +343,14 @@ TRIGGER="event"
         if [ "$TESTING_MODE" = true ]; then
            sleep 10
         else
-          "$JAMF_BINARY" recon -building "$REG_POPUP_LABEL_1_VALUE"
+          "$JAMF_BINARY" recon -department "$REG_POPUP_LABEL_1_VALUE"
         fi
       }
 
   # Popup 2
   #######################################################################################
     # Label for the popup
-      REG_POPUP_LABEL_2="Department"
+      REG_POPUP_LABEL_2=""
 
     # Array of options for the user to select
       REG_POPUP_LABEL_2_OPTIONS=(
