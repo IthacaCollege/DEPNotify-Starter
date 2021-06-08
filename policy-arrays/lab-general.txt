@@ -4,7 +4,6 @@
 "Running Computer Rename,rename"
 "Setting up NoMAD menu,nomadmenu"
 "Setting up NoMAD Login,nomadlogin"
-"Installing Adobe Acrobat Pro,acrobat"
 "Installing Chrome,chrome"
 "Configuring Chrome,chromeautoupdates"
 "Installing Firefox,firefox"
@@ -13,9 +12,9 @@
 "Installing Microsoft 365 business apps,officeproplus"
 "Serializing Microsoft 365 business apps,officeproplusvl"
 "Installing Zoom,zoom"
+"Installing Adobe Acrobat Pro,acrobat"
 "Installing Adobe After Effects,aftereffects"
 "Installing Adobe Media Encoder,mediaencoder"
-#"Installing Adobe XD,adobexd"
 "Installing Adobe Audition,audition"
 "Installing Adobe Dreamweaver,dreamweaver"
 "Installing Adobe Illustrator,illustrator"
@@ -28,7 +27,6 @@
 "Installing Audacity,audacity"
 "Installing Lame Plugins,lame"
 "Installing FFMpeg,ffmpeg"
-"Installing Background images,backgrounds"
 "Installing BBedit,bbedit"
 "Installing Brackets,brackets"
 "Installing CyberDuck,cyberduck"
@@ -36,7 +34,6 @@
 "Installing PaperCut client,papercut"
 "Installing Java JDK,jdk"
 "Installing Kaltura,kaltura"
-"Installing Sassafrass K2 Client,k2"
 "Installing Mendely,mendely"
 "Installing command line tools,cmdlinetools"
 "Installing R Programming language,rlanguage"
@@ -44,55 +41,10 @@
 "Installing R Plugins,rplugins"
 "Installing SPSS,spss"
 "Installing ICprint Queue,icprint"
-
-#Eclassrooms
-#"Installing Tophat,tophat"
-
-#Whalen eclassrooms
-
-#DM118 Lab
-#"Installing AutoCad,autocad"
-#"Installing ColorPlay3,colorplay"
-#"Installing Lightwright,lightwright"
-#"Installing Vectorworks,vectorworks"
-#"Installing ETC nomad EOS,etcnomad"
-#"Installing Qlab,qlab"
-#"Installing Adobe Lightroom,lightroom"
-#"Installing Reaper64,reaper"
-#"Installing FilemakerPro 13,dm118filemaker13"
-#"Installing HP Z5200 driver and utilities,hpz5200"
-
-#Art Lab
-#"Installing Meshmixer,meshmixer"
-#"Installing Wacom Tablet Drivers,wacomtabletdrivers"
-#"Installing Adobe Character Animator,characteranimator"
-#"Installing Adobe Incopy,incopy"
-#"Installing Adobe Bridge,bridge"
-#"Installing LAB ART Thawspace package,artthawspace"
-#"Installing Adobe Font Folio,fontfolio"
-#"Installing Akzidenze Grotesk Fonts,akzidenzegroteskfonts"
-#"Installing Install create thawspace pkg,thawspace"
-
-#WM320 LAB
-#"Installing Geometer Sketchpad,geometer"
-#"Installing SimuTex,simutex"
-#"Installing Tinkerplots,tinkerplots"
-
-#GC laptops
-#"Installing Labuser profile,installLabuserAccountPkg"
-#"Installing Deep Freeze,installDeepFreeze"
-#"Installing Library Wallpaper,librarybackground"
-
-#LA Program Lab
-
-#All Lab computers
-#"Installing Falcon Protect AntiVirus,falconprotect"
-#"Licensing Falcon Protect AntiVirus,falconpostinstall"
 "Installing HP printer drivers,hpdrivers"
-"Installing Xerox printer drivers,xeroxdrivers"
-#"Configuring Admin Rights,makeadmin"
+"Installing Sassafrass K2 Client,k2"
+"Installing Microsoft Defender ATP,defenderatp"
+"Installing Print Deploy client,printdeployclient"
 "Finishing up deployment,enablejamfcheckin"
 "Finishing up deployment,provisioningcompleted"
 "Installing Critical Updates,updatesoftware"
-
-#"Enabling Filevault,filevault"
