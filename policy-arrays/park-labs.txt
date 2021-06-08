@@ -30,7 +30,7 @@
 "Installing Adobe Lightroom Classic,lightroomclassic"
 "Installing Adobe Premiere Rush,premiererush"
 "Installing Adobe Animate and Mobile Device pkging,animateandmobile"
-"Installing Adobe Creative Cloud SDL,creativecloudsdl""
+"Installing Adobe Creative Cloud SDL,creativecloudsdl"
 "Installing AGPS short cuts,agps"
 "Installing Algodoo,algodoo"
 "Installing Audacity,audacity"
