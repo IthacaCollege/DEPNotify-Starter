@@ -11,7 +11,7 @@
 "Installing VLC Player,vlcplayer"
 "Installing Microsoft 365 business apps,officeproplus"
 "Serializing Microsoft 365 business apps,officeproplusvl"
-"Installing Zoom,zoom
+"Installing Zoom,zoom"
 "Installing Adobe After Effects,aftereffects"
 "Installing Adobe Audition,audition"
 "Installing Adobe Media Encoder,mediaencoder"
