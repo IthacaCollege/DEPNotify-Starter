@@ -48,7 +48,6 @@
 "Installing SPSS,spss"
 "Installing ICprint Queue,icprint"
 "Installing Sassafrass K2 Client,k2"
-"Installing Microsoft Defender ATP,defenderatp"
 "Installing HP printer drivers,hpdrivers"
 "Installing Print Deploy client,printdeployclient"
 
