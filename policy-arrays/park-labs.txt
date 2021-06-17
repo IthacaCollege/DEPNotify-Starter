@@ -1,7 +1,9 @@
-#All Lab computers
+#All computers
 "Preparing for deployment,disablejamfcheckin"
 "Preparing for deployment,provisioningstarted"
 "Running Computer Rename,rename"
+
+#All labs
 "Setting up NoMAD menu,nomadmenu"
 "Setting up NoMAD Login,nomadlogin"
 "Installing Chrome,chrome"
@@ -12,24 +14,24 @@
 "Installing Microsoft 365 business apps,officeproplus"
 "Serializing Microsoft 365 business apps,officeproplusvl"
 "Installing Zoom,zoom"
+"Installing Adobe Acrobat Pro,acrobat"
 "Installing Adobe After Effects,aftereffects"
+"Installing Adobe Animate,animate"
 "Installing Adobe Audition,audition"
-"Installing Adobe Media Encoder,mediaencoder"
-"Installing Adobe XD,adobexd"
-"Installing Adobe Dreamweaver,dreamweaver"
-"Installing Adobe Illustrator,illustrator"
-"Installing Adobe InDesign,indesign"
-"Installing Adobe Photoshop,photoshop"
-"Installing Adobe Premiere Pro,premiere"
 "Installing Adobe Bridge,bridge"
 "Installing Adobe Character Animator,characteranimator"
+"Installing Adobe Dimension,dimension"
+"Installing Adobe Dreamweaver,dreamweaver"
+"Installing Adobe Illustrator,illustrator"
 "Installing Adobe InCopy,incopy"
-"Installing Adobe Prelude,prelude"
-"Installing Adobe Acrobat Pro,acrobat"
+"Installing Adobe InDesign,indesign"
 "Installing Adobe Lightroom,lightroom"
 "Installing Adobe Lightroom Classic,lightroomclassic"
+"Installing Adobe Media Encoder,mediaencoder"
+"Installing Adobe Photoshop,photoshop"
+"Installing Adobe Prelude,prelude"
+"Installing Adobe Premiere Pro,premiere"
 "Installing Adobe Premiere Rush,premiererush"
-"Installing Adobe Animate and Mobile Device pkging,animateandmobile"
 "Installing Adobe Creative Cloud SDL,creativecloudsdl"
 "Installing AGPS short cuts,agps"
 "Installing Algodoo,algodoo"
@@ -40,7 +42,6 @@
 "Installing Brackets,brackets"
 "Installing CyberDuck,cyberduck"
 "Installing Google Earth Pro,googleearth"
-"Installing PaperCut client,papercut"
 "Installing Java JDK,jdk"
 "Installing command line tools,cmdlinetools"
 "Installing R Programming language,rlanguage"
@@ -48,10 +49,16 @@
 "Installing R Plugins,rplugins"
 "Installing SPSS,spss"
 "Installing ICprint Queue,icprint"
-"Installing HP printer drivers,hpdrivers"
 "Installing Sassafrass K2 Client,k2"
 "Installing Microsoft Defender ATP,defenderatp"
+"Installing HP printer drivers,hpdrivers"
 "Installing Print Deploy client,printdeployclient"
+
+################################
+# Insert custom apps arrays here
+################################
+
+# All computers
 "Finishing up deployment,enablejamfcheckin"
 "Finishing up deployment,provisioningcompleted"
 "Installing Critical Updates,updatesoftware"
