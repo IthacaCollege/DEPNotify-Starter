@@ -2,8 +2,8 @@
 "Preparing for deployment,disablejamfcheckin"
 "Preparing for deployment,provisioningstarted"
 "Running Computer Rename,rename"
-"Installing Adobe Acrobat Pro,acrobat"
-"Installing Adobe Reader,adobereader"
+"Setting up NoMAD menu,nomadmenu"
+"Setting up NoMAD Login,nomadlogin"
 "Installing Chrome,chrome"
 "Configuring Chrome,chromeautoupdates"
 "Installing Firefox,firefox"
@@ -12,9 +12,9 @@
 "Installing Microsoft 365 business apps,officeproplus"
 "Serializing Microsoft 365 business apps,officeproplusvl"
 "Installing Zoom,zoom"
+"Installing Adobe Acrobat Pro,acrobat"
 "Installing Adobe After Effects,aftereffects"
 "Installing Adobe Media Encoder,mediaencoder"
-#"Installing Adobe XD,adobexd"
 "Installing Adobe Audition,audition"
 "Installing Adobe Dreamweaver,dreamweaver"
 "Installing Adobe Illustrator,illustrator"
@@ -22,64 +22,33 @@
 "Installing Adobe Photoshop,photoshop"
 "Installing Adobe Premiere Pro,premiere"
 "Installing Adobe Creative Cloud SDL,creativecloudsdl"
-"Installing AGPS shortcuts,agps"
+"Installing AGPS short cuts,agps"
 "Installing Algodoo,algodoo"
 "Installing Audacity,audacity"
 "Installing Lame Plugins,lame"
 "Installing FFMpeg,ffmpeg"
-"Installing Background images,backgrounds"
 "Installing BBedit,bbedit"
 "Installing Brackets,brackets"
-"Installing Cyberduck,cyberduck"
+"Installing CyberDuck,cyberduck"
 "Installing Google Earth Pro,googleearth"
 "Installing PaperCut client,papercut"
 "Installing Java JDK,jdk"
-"Installing Kaltura,kaltura"
-"Installing Sassafrass K2 Client,k2"
-"Installing Mendely,mendely"
 "Installing command line tools,cmdlinetools"
 "Installing R Programming language,rlanguage"
 "Installing RStudio,rstudio"
 "Installing R Plugins,rplugins"
 "Installing SPSS,spss"
 "Installing ICprint Queue,icprint"
+"Installing HP printer drivers,hpdrivers"
+"Installing Sassafrass K2 Client,k2"
+"Installing Microsoft Defender ATP,defenderatp"
+"Installing Print Deploy client,printdeployclient"
 
 #Eclassrooms
 "Installing Tophat,tophat"
 "Setting up Eclassroom account,classroomprofile"
 "Setting up Eclassroom account,classroomaccount"
 "Setting up Eclassroom account,classroomautologon"
-
-#DM118 Lab
-#"Installing AutoCad,autocad"
-#"Installing ColorPlay3,colorplay"
-#"Installing Lightwright,lightwright"
-#"Installing Vectorworks,vectorworks"
-#"Installing ETC nomad EOS,etcnomad"
-#"Installing Qlab,qlab"
-#"Installing Adobe Lightroom,lightroom"
-#"Installing Reaper64,reaper"
-#"Installing FilemakerPro 13,dm118filemaker13"
-#"Installing HP Z5200 driver and utilities,hpz5200"
-
-#Art Lab
-#"Installing Meshmixer,meshmixer"
-
-#WM320 LAB
-#"Installing Geometer Sketchpad,geometer"
-#"Installing SimuTex,simutex"
-#"Installing Tinkerplots,tinkerplots"
-
-#LA Program Lab
-
-#All Lab computers
-"Installing NoMAD"
-#"Installing Falcon Protect AntiVirus,falconprotect"
-#"Licensing Falcon Protect AntiVirus,falconpostinstall"
-"Installing Sassafrass K2 Client,k2"
-"Installing HP printer drivers,hpdrivers"
-"Installing Xerox printer drivers,xeroxdrivers"
-#"Configuring Admin Rights,makeadmin"
 
 #Deep Freeze
 "Installing Deep Freeze,deepfreeze"
@@ -88,5 +57,3 @@
 "Finishing up deployment,enablejamfcheckin"
 "Finishing up deployment,provisioningcompleted"
 "Installing Critical Updates,updatesoftware"
-
-#"Enabling Filevault,filevault"
