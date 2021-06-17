@@ -42,7 +42,6 @@
 "Installing Google Earth Pro,googleearth"
 "Installing PaperCut client,papercut"
 "Installing Java JDK,jdk"
-"Installing Mendely,mendely"
 "Installing command line tools,cmdlinetools"
 "Installing R Programming language,rlanguage"
 "Installing RStudio,rstudio"
