@@ -4,8 +4,6 @@
 "Running Computer Rename,rename"
 
 #All labs
-"Setting up NoMAD menu,nomadmenu"
-"Setting up NoMAD Login,nomadlogin"
 "Installing Chrome,chrome"
 "Configuring Chrome,chromeautoupdates"
 "Installing Firefox,firefox"
