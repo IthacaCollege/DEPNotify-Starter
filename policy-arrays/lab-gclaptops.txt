@@ -1,0 +1,5 @@
+#GC laptops
+"Installing Labuser profile,installLabuserAccountPkg"
+"Installing Deep Freeze,deepfreeze"
+"Installing Sassafras K2 client and configuring data directory on Deep Freeze Thawspace,k2deepfreezeforapfs"
+"Installing Library Wallpaper,librarybackground"
