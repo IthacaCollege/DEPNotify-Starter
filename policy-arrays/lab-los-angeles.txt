@@ -1,0 +1,22 @@
+     #All computers
+    "Preparing for deployment,disablejamfcheckin"
+    "Preparing for deployment,provisioningstarted"
+    "Running Computer Rename,rename"
+    
+    # All LA Lab computers
+    "Installing Chrome,chrome"
+    "Configuring Chrome,chromeautoupdates"
+    "Installing Firefox,firefox"
+    "Installing Java Runtime,java"
+    "Installing VLC Player,vlcplayer"
+    "Installing Microsoft 365 business apps,officeproplus"
+    "Serializing Microsoft 365 business apps,officeproplusvl"
+    "Installing Zoom,zoom"
+    "Installing Adobe Creative Cloud SDL,selfservicecreativecloudsdl"
+    "Installing command line tools,cmdlinetools"
+    "Installing Sassafrass K2 Client,k2"
+    
+    # All computers
+    "Finishing up deployment,enablejamfcheckin"
+    "Finishing up deployment,provisioningcompleted"
+    "Installing Critical Updates,updatesoftware"
