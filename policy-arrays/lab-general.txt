@@ -33,7 +33,6 @@
 "Installing Adobe Premiere Pro,premiere"
 "Installing Adobe Premiere Rush,premiererush"
 "Installing Adobe Creative Cloud SDL,creativecloudsdl"
-"Installing AGPS short cuts,agps"
 "Installing Algodoo,algodoo"
 "Installing Audacity,audacity"
 "Installing Lame Plugins,lame"
@@ -50,9 +49,7 @@
 "Installing SPSS,spss"
 "Installing ICprint Queue,icprint"
 "Installing Sassafrass K2 Client,k2"
-"Installing Microsoft Defender ATP,defenderatp"
 "Installing HP printer drivers,hpdrivers"
-"Installing Print Deploy client,printdeployclient"
 
 ################################
 # Insert custom apps arrays here
