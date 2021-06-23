@@ -1,0 +1,4 @@
+#WM320 LAB
+"Installing Geometer Sketchpad,geometer"
+"Installing SimuTex,simutex"
+"Installing Tinkerplots,tinkerplots"
