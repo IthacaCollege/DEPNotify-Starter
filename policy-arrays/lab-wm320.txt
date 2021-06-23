@@ -1,3 +1,6 @@
+################################
+# Insert custom apps arrays here
+################################
 #WM320 LAB
 "Installing Geometer Sketchpad,geometer"
 "Installing SimuTex,simutex"
