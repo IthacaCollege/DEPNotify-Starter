@@ -2,8 +2,9 @@
 "Preparing for deployment,disablejamfcheckin"
 "Preparing for deployment,provisioningstarted"
 "Running Computer Rename,rename"
-
 #All labs
+"Setting up NoMAD menu,nomadmenu"
+"Setting up NoMAD Login,nomadlogin"
 "Installing Chrome,chrome"
 "Configuring Chrome,chromeautoupdates"
 "Installing Firefox,firefox"
@@ -31,7 +32,6 @@
 "Installing Adobe Premiere Pro,premiere"
 "Installing Adobe Premiere Rush,premiererush"
 "Installing Adobe Creative Cloud SDL,creativecloudsdl"
-"Installing AGPS short cuts,agps"
 "Installing Algodoo,algodoo"
 "Installing Audacity,audacity"
 "Installing Lame Plugins,lame"
@@ -49,7 +49,6 @@
 "Installing ICprint Queue,icprint"
 "Installing Sassafrass K2 Client,k2"
 "Installing HP printer drivers,hpdrivers"
-"Installing Print Deploy client,printdeployclient"
 
 ################################
 # Insert custom apps arrays here
