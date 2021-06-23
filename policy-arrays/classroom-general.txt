@@ -2,6 +2,7 @@
 "Preparing for deployment,disablejamfcheckin"
 "Preparing for deployment,provisioningstarted"
 "Running Computer Rename,rename"
+
 #All labs
 "Setting up NoMAD menu,nomadmenu"
 "Setting up NoMAD Login,nomadlogin"
