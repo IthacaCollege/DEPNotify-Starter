@@ -5,7 +5,6 @@
 "Installing Tophat,tophat"
 "Setting up Eclassroom account,classroomprofile"
 "Setting up Eclassroom account,classroomaccount"
-"Setting up Eclassroom account,classroomautologon"
 
 #Deep Freeze
 "Installing Deep Freeze,deepfreeze"
