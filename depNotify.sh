@@ -1,5 +1,5 @@
 #!/bin/bash
-# Version 2.0.6
+# Version 2.0.7
 
 #########################################################################################
 # License information
@@ -527,7 +527,7 @@ TRIGGER="event"
   done
 
 # After the Apple Setup completed. Now safe to grab the current user and user ID
-  CURRENT_USER=$(/usr/bin/python -c 'from SystemConfiguration import SCDynamicStoreCopyConsoleUser; import sys; username = (SCDynamicStoreCopyConsoleUser(None, None, None) or [None])[0]; username = [username,""][username in [u"loginwindow", None, u""]]; sys.stdout.write(username + "\n");')
+  CURRENT_USER=$(/usr/bin/stat -f "%Su" /dev/console)
   CURRENT_USER_ID=$(id -u $CURRENT_USER)
   echo "$(date "+%a %h %d %H:%M:%S"): Current user set to $CURRENT_USER (id: $CURRENT_USER_ID)." >> "$DEP_NOTIFY_DEBUG"
 
@@ -585,7 +585,7 @@ TRIGGER="event"
     SELF_SERVICE_PID=$(pgrep -l "Self Service" | cut -d' ' -f1)
     echo "$(date "+%a %h %d %H:%M:%S"): Self Service custom branding icon has been loaded. Killing Self Service PID $SELF_SERVICE_PID." >> "$DEP_NOTIFY_DEBUG"
     kill "$SELF_SERVICE_PID"
-  elif [ -f "$BANNER_IMAGE_PATH" ];then
+  elif [ ! -f "$BANNER_IMAGE_PATH" ];then
     BANNER_IMAGE_PATH="/Applications/Self Service.app/Contents/Resources/AppIcon.icns"
   fi
 
